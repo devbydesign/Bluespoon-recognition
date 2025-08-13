@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <footer>
             <div class="container footer-grid">
                 <div class="footer-section footer-company">
-                    <h3>RBB Marketing</h3>
-                    <p>456 Sample Road<br>Example Town, EX 67890<br>(987) 654-3210</p>
+                    <h3>Blue Spoon Boutique</h3>
+                    <p>10 Green Hills Drive<br>Verona, VA, 24482<br>(540) 480-6327</p>
                 </div>
                 <div class="footer-section footer-links">
                     <h3>Quick Links</h3>
@@ -18,17 +18,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="footer-section footer-social">
                     <h3>Follow Us</h3>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/rbbmarketing" target="_blank" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/bluespoonboutique" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://x.com/rbbmarketing" target="_blank" aria-label="X (Twitter)">
-                            <i class="fab fa-x-twitter"></i>
+                        <a href="https://www.instagram.com/bluespoonboutique" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="https://www.instagram.com/rbbmarketing/" target="_blank" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
+                        <a href="https://www.linkedin.com/bluespoonboutique?_l=en_US" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.linkedin.com/company/rbb-marketing/" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.pinterest.com/bluespoonboutique" target="_blank" aria-label="Pinterest">
+                        <i class="fab fa-pinterest"></i>
                         </a>
                     </div>
                 </div>
