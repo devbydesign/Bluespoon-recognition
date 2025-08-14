@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #2f475a; /* RBB Marketing Blue */
+  --primary-color: #062547; /* RBB Marketing Blue */
   --secondary-color: #000000; /* Black */
   --accent-color: #f7b801; /* Energetic Yellow */
-  --brand-green: #2f475a; /* Brand Green */
-  --brand-orange: #2f475a; /* Alias for primary color to fix existing references */
+  --brand-green: #062547; /* Brand Green */
+  --brand-orange: #062547; /* Alias for primary color to fix existing references */
   --dark-color: #000000; /* Black for text */
   --light-color: #ffffff; /* White background */
   --medium-color: #f0f2f5; /* Light grey for backgrounds/borders */
   --text-muted: #666666; /* Muted text color */
-  --success-color: #2f475a; /* RBB Marketing Blue for checkmarks etc. */
+  --success-color: #062547; /* RBB Marketing Blue for checkmarks etc. */
   --border-radius: 6px;
   --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-secondary: 'Georgia', serif; /* For select headings or accents */
@@ -1603,7 +1603,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 .program-module {
   position: relative;
   padding: 1.5rem;
-  background: #eaf2fa;
+  background: color-mix(in srgb, var(--primary-color) 8.2%, transparent);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   cursor: grab;
@@ -2081,7 +2081,7 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
   padding: 0.5rem 1rem !important;
   border-radius: var(--border-radius) !important;
   margin-bottom: 1rem !important;
-  border-left: 4px solid #2f475a !important;
+  border-left: 4px solid #062547 !important;
   padding-left: 1.5rem !important;
 }
 
@@ -2618,9 +2618,9 @@ main.container > h1 + p { /* Selects paragraph immediately following h1 in main 
 /* Browse Incentives Button Styling for summary output only */
 .browse-incentives-btn {
   display: inline-block;
-  background-color: #2f475a;
+  background-color: #062547;
   color: white;
-  border: 2px solid #2f475a;
+  border: 2px solid #062547;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
